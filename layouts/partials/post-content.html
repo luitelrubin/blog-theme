@@ -1,7 +1,9 @@
 <div class="post-content clearfix" itemprop="articleBody">
-    {{ with .Params.Image }}
+    <div class="post-featured-image-container">
+        {{ with .Params.Image }}
         <img class="post-featured-image" src="{{ . }}">
-    {{ end }}
+        {{ end }}
+    </div>
 
     {{ .Content }}
 </div>
