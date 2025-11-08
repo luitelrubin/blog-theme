@@ -613,7 +613,7 @@ table {
 }
 
 // original max-width: 600px
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 200px) {
     h1, h2 { margin-bottom: 20px; }
 
     p { margin-bottom: 20px; }
@@ -735,59 +735,59 @@ table {
     }
 }
     // Original max-width: 400px
-    @media only screen and (max-width: 250px) {
-        .site-header {
-            padding-top: 40px;
-        }
+    // @media only screen and (max-width: 250px) {
+    //     .site-header {
+    //         padding-top: 40px;
+    //     }
 
-        .post-title,
-        .page-title,
-        .author-name,
-        .author-heading {
-            font-size: 30px;
-            line-height: 1.2;
-            word-wrap: break-word;
-            overflow-wrap: break-word;
-        }
+    //     .post-title,
+    //     .page-title,
+    //     .author-name,
+    //     .author-heading {
+    //         font-size: 30px;
+    //         line-height: 1.2;
+    //         word-wrap: break-word;
+    //         overflow-wrap: break-word;
+    //     }
 
-        .post-date,
-        .blog-description,
-        .author-meta {
-            line-height: 1.6;
-        }
+    //     .post-date,
+    //     .blog-description,
+    //     .author-meta {
+    //         line-height: 1.6;
+    //     }
 
-        .post-date,
-        .blog-description,
-        .author-meta {
-            margin-top: 10px;
+    //     .post-date,
+    //     .blog-description,
+    //     .author-meta {
+    //         margin-top: 10px;
 
-            &:after, &:before {
-                margin-top: 20px;
-            }
-        }
+    //         &:after, &:before {
+    //             margin-top: 20px;
+    //         }
+    //     }
 
-        .author-profile {
-            &:after, &:before {
-                margin-top: 10px;
-            }
-        }
+    //     .author-profile {
+    //         &:after, &:before {
+    //             margin-top: 10px;
+    //         }
+    //     }
 
-        .post-container,
-        .post-list,
-        .author-profile {
-            margin-right: 15px;
-            margin-left: 15px;
-        }
+    //     .post-container,
+    //     .post-list,
+    //     .author-profile {
+    //         margin-right: 15px;
+    //         margin-left: 15px;
+    //     }
 
-        .author-avatar {
-            display: block;
-            margin: 0 auto 18px;
-        }
+    //     .author-avatar {
+    //         display: block;
+    //         margin: 0 auto 18px;
+    //     }
 
-        .author-meta span {
-            display: block;
-            margin: 18px 0;
-        }
+    //     .author-meta span {
+    //         display: block;
+    //         margin: 18px 0;
+    //     }
 
-        .footer-copyright { padding: 0 10px; }
-    }
+    //     .footer-copyright { padding: 0 10px; }
+    // }
