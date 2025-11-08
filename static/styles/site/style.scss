@@ -612,7 +612,8 @@ table {
     .post-stub-tag { display: none; }
 }
 
-@media only screen and (max-width: 600px) {
+// original max-width: 600px
+@media only screen and (max-width: 400px) {
     h1, h2 { margin-bottom: 20px; }
 
     p { margin-bottom: 20px; }
@@ -733,60 +734,60 @@ table {
         }
     }
 }
-
-@media only screen and (max-width: 400px) {
-    .site-header {
-        padding-top: 40px;
-    }
-
-    .post-title,
-    .page-title,
-    .author-name,
-    .author-heading {
-        font-size: 30px;
-        line-height: 1.2;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .post-date,
-    .blog-description,
-    .author-meta {
-        line-height: 1.6;
-    }
-
-    .post-date,
-    .blog-description,
-    .author-meta {
-        margin-top: 10px;
-
-        &:after, &:before {
-            margin-top: 20px;
+    // Original max-width: 400px
+    @media only screen and (max-width: 250px) {
+        .site-header {
+            padding-top: 40px;
         }
-    }
 
-    .author-profile {
-        &:after, &:before {
+        .post-title,
+        .page-title,
+        .author-name,
+        .author-heading {
+            font-size: 30px;
+            line-height: 1.2;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        .post-date,
+        .blog-description,
+        .author-meta {
+            line-height: 1.6;
+        }
+
+        .post-date,
+        .blog-description,
+        .author-meta {
             margin-top: 10px;
+
+            &:after, &:before {
+                margin-top: 20px;
+            }
         }
-    }
 
-    .post-container,
-    .post-list,
-    .author-profile {
-        margin-right: 15px;
-        margin-left: 15px;
-    }
+        .author-profile {
+            &:after, &:before {
+                margin-top: 10px;
+            }
+        }
 
-    .author-avatar {
-        display: block;
-        margin: 0 auto 18px;
-    }
+        .post-container,
+        .post-list,
+        .author-profile {
+            margin-right: 15px;
+            margin-left: 15px;
+        }
 
-    .author-meta span {
-        display: block;
-        margin: 18px 0;
-    }
+        .author-avatar {
+            display: block;
+            margin: 0 auto 18px;
+        }
 
-    .footer-copyright { padding: 0 10px; }
-}
+        .author-meta span {
+            display: block;
+            margin: 18px 0;
+        }
+
+        .footer-copyright { padding: 0 10px; }
+    }
